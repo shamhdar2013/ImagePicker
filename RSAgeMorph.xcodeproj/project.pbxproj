@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFE444C51FBA599500E77CA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE444C41FBA599500E77CA1 /* AppDelegate.swift */; };
+		DFE444C71FBA599500E77CA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE444C61FBA599500E77CA1 /* ViewController.swift */; };
+		DFE444CA1FBA599500E77CA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE444C81FBA599500E77CA1 /* Main.storyboard */; };
+		DFE444CD1FBA599500E77CA1 /* RSAgeMorph.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFE444CB1FBA599500E77CA1 /* RSAgeMorph.xcdatamodeld */; };
+		DFE444CF1FBA599500E77CA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE444CE1FBA599500E77CA1 /* Assets.xcassets */; };
+		DFE444D21FBA599500E77CA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE444D01FBA599500E77CA1 /* LaunchScreen.storyboard */; };
+		DFE444DD1FBA599500E77CA1 /* RSAgeMorphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE444DC1FBA599500E77CA1 /* RSAgeMorphTests.swift */; };
+		DFE444E81FBA599600E77CA1 /* RSAgeMorphUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE444E71FBA599600E77CA1 /* RSAgeMorphUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFE444D91FBA599500E77CA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFE444B91FBA599500E77CA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE444C01FBA599500E77CA1;
+			remoteInfo = RSAgeMorph;
+		};
+		DFE444E41FBA599600E77CA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFE444B91FBA599500E77CA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE444C01FBA599500E77CA1;
+			remoteInfo = RSAgeMorph;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFE444C11FBA599500E77CA1 /* RSAgeMorph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSAgeMorph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE444C41FBA599500E77CA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFE444C61FBA599500E77CA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFE444C91FBA599500E77CA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFE444CC1FBA599500E77CA1 /* RSAgeMorph.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RSAgeMorph.xcdatamodel; sourceTree = "<group>"; };
+		DFE444CE1FBA599500E77CA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFE444D11FBA599500E77CA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFE444D31FBA599500E77CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE444D81FBA599500E77CA1 /* RSAgeMorphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSAgeMorphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE444DC1FBA599500E77CA1 /* RSAgeMorphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAgeMorphTests.swift; sourceTree = "<group>"; };
+		DFE444DE1FBA599600E77CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE444E31FBA599600E77CA1 /* RSAgeMorphUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSAgeMorphUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE444E71FBA599600E77CA1 /* RSAgeMorphUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAgeMorphUITests.swift; sourceTree = "<group>"; };
+		DFE444E91FBA599600E77CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFE444BE1FBA599500E77CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE444D51FBA599500E77CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE444E01FBA599600E77CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFE444B81FBA599500E77CA1 = {
+			isa = PBXGroup;
+			children = (
+				DFE444C31FBA599500E77CA1 /* RSAgeMorph */,
+				DFE444DB1FBA599500E77CA1 /* RSAgeMorphTests */,
+				DFE444E61FBA599600E77CA1 /* RSAgeMorphUITests */,
+				DFE444C21FBA599500E77CA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFE444C21FBA599500E77CA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFE444C11FBA599500E77CA1 /* RSAgeMorph.app */,
+				DFE444D81FBA599500E77CA1 /* RSAgeMorphTests.xctest */,
+				DFE444E31FBA599600E77CA1 /* RSAgeMorphUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFE444C31FBA599500E77CA1 /* RSAgeMorph */ = {
+			isa = PBXGroup;
+			children = (
+				DFE444C41FBA599500E77CA1 /* AppDelegate.swift */,
+				DFE444C61FBA599500E77CA1 /* ViewController.swift */,
+				DFE444C81FBA599500E77CA1 /* Main.storyboard */,
+				DFE444CE1FBA599500E77CA1 /* Assets.xcassets */,
+				DFE444D01FBA599500E77CA1 /* LaunchScreen.storyboard */,
+				DFE444D31FBA599500E77CA1 /* Info.plist */,
+				DFE444CB1FBA599500E77CA1 /* RSAgeMorph.xcdatamodeld */,
+			);
+			path = RSAgeMorph;
+			sourceTree = "<group>";
+		};
+		DFE444DB1FBA599500E77CA1 /* RSAgeMorphTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFE444DC1FBA599500E77CA1 /* RSAgeMorphTests.swift */,
+				DFE444DE1FBA599600E77CA1 /* Info.plist */,
+			);
+			path = RSAgeMorphTests;
+			sourceTree = "<group>";
+		};
+		DFE444E61FBA599600E77CA1 /* RSAgeMorphUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFE444E71FBA599600E77CA1 /* RSAgeMorphUITests.swift */,
+				DFE444E91FBA599600E77CA1 /* Info.plist */,
+			);
+			path = RSAgeMorphUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFE444C01FBA599500E77CA1 /* RSAgeMorph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE444EC1FBA599600E77CA1 /* Build configuration list for PBXNativeTarget "RSAgeMorph" */;
+			buildPhases = (
+				DFE444BD1FBA599500E77CA1 /* Sources */,
+				DFE444BE1FBA599500E77CA1 /* Frameworks */,
+				DFE444BF1FBA599500E77CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSAgeMorph;
+			productName = RSAgeMorph;
+			productReference = DFE444C11FBA599500E77CA1 /* RSAgeMorph.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFE444D71FBA599500E77CA1 /* RSAgeMorphTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE444EF1FBA599600E77CA1 /* Build configuration list for PBXNativeTarget "RSAgeMorphTests" */;
+			buildPhases = (
+				DFE444D41FBA599500E77CA1 /* Sources */,
+				DFE444D51FBA599500E77CA1 /* Frameworks */,
+				DFE444D61FBA599500E77CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFE444DA1FBA599500E77CA1 /* PBXTargetDependency */,
+			);
+			name = RSAgeMorphTests;
+			productName = RSAgeMorphTests;
+			productReference = DFE444D81FBA599500E77CA1 /* RSAgeMorphTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFE444E21FBA599600E77CA1 /* RSAgeMorphUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE444F21FBA599600E77CA1 /* Build configuration list for PBXNativeTarget "RSAgeMorphUITests" */;
+			buildPhases = (
+				DFE444DF1FBA599600E77CA1 /* Sources */,
+				DFE444E01FBA599600E77CA1 /* Frameworks */,
+				DFE444E11FBA599600E77CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFE444E51FBA599600E77CA1 /* PBXTargetDependency */,
+			);
+			name = RSAgeMorphUITests;
+			productName = RSAgeMorphUITests;
+			productReference = DFE444E31FBA599600E77CA1 /* RSAgeMorphUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFE444B91FBA599500E77CA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "RADHIKA SHARMA";
+				TargetAttributes = {
+					DFE444C01FBA599500E77CA1 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					DFE444D71FBA599500E77CA1 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DFE444C01FBA599500E77CA1;
+					};
+					DFE444E21FBA599600E77CA1 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DFE444C01FBA599500E77CA1;
+					};
+				};
+			};
+			buildConfigurationList = DFE444BC1FBA599500E77CA1 /* Build configuration list for PBXProject "RSAgeMorph" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFE444B81FBA599500E77CA1;
+			productRefGroup = DFE444C21FBA599500E77CA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFE444C01FBA599500E77CA1 /* RSAgeMorph */,
+				DFE444D71FBA599500E77CA1 /* RSAgeMorphTests */,
+				DFE444E21FBA599600E77CA1 /* RSAgeMorphUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFE444BF1FBA599500E77CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE444D21FBA599500E77CA1 /* LaunchScreen.storyboard in Resources */,
+				DFE444CF1FBA599500E77CA1 /* Assets.xcassets in Resources */,
+				DFE444CA1FBA599500E77CA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE444D61FBA599500E77CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE444E11FBA599600E77CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFE444BD1FBA599500E77CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE444C71FBA599500E77CA1 /* ViewController.swift in Sources */,
+				DFE444C51FBA599500E77CA1 /* AppDelegate.swift in Sources */,
+				DFE444CD1FBA599500E77CA1 /* RSAgeMorph.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE444D41FBA599500E77CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE444DD1FBA599500E77CA1 /* RSAgeMorphTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE444DF1FBA599600E77CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE444E81FBA599600E77CA1 /* RSAgeMorphUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFE444DA1FBA599500E77CA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE444C01FBA599500E77CA1 /* RSAgeMorph */;
+			targetProxy = DFE444D91FBA599500E77CA1 /* PBXContainerItemProxy */;
+		};
+		DFE444E51FBA599600E77CA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE444C01FBA599500E77CA1 /* RSAgeMorph */;
+			targetProxy = DFE444E41FBA599600E77CA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFE444C81FBA599500E77CA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFE444C91FBA599500E77CA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFE444D01FBA599500E77CA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFE444D11FBA599500E77CA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFE444EA1FBA599600E77CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFE444EB1FBA599600E77CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFE444ED1FBA599600E77CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UA2WZ4PLLC;
+				INFOPLIST_FILE = RSAgeMorph/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.radhika.morph.RSAgeMorph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFE444EE1FBA599600E77CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UA2WZ4PLLC;
+				INFOPLIST_FILE = RSAgeMorph/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.radhika.morph.RSAgeMorph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFE444F01FBA599600E77CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UA2WZ4PLLC;
+				INFOPLIST_FILE = RSAgeMorphTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.radhika.morph.RSAgeMorphTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSAgeMorph.app/RSAgeMorph";
+			};
+			name = Debug;
+		};
+		DFE444F11FBA599600E77CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UA2WZ4PLLC;
+				INFOPLIST_FILE = RSAgeMorphTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.radhika.morph.RSAgeMorphTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSAgeMorph.app/RSAgeMorph";
+			};
+			name = Release;
+		};
+		DFE444F31FBA599600E77CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UA2WZ4PLLC;
+				INFOPLIST_FILE = RSAgeMorphUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.radhika.morph.RSAgeMorphUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RSAgeMorph;
+			};
+			name = Debug;
+		};
+		DFE444F41FBA599600E77CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UA2WZ4PLLC;
+				INFOPLIST_FILE = RSAgeMorphUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.radhika.morph.RSAgeMorphUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RSAgeMorph;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFE444BC1FBA599500E77CA1 /* Build configuration list for PBXProject "RSAgeMorph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE444EA1FBA599600E77CA1 /* Debug */,
+				DFE444EB1FBA599600E77CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE444EC1FBA599600E77CA1 /* Build configuration list for PBXNativeTarget "RSAgeMorph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE444ED1FBA599600E77CA1 /* Debug */,
+				DFE444EE1FBA599600E77CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE444EF1FBA599600E77CA1 /* Build configuration list for PBXNativeTarget "RSAgeMorphTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE444F01FBA599600E77CA1 /* Debug */,
+				DFE444F11FBA599600E77CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE444F21FBA599600E77CA1 /* Build configuration list for PBXNativeTarget "RSAgeMorphUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE444F31FBA599600E77CA1 /* Debug */,
+				DFE444F41FBA599600E77CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DFE444CB1FBA599500E77CA1 /* RSAgeMorph.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DFE444CC1FBA599500E77CA1 /* RSAgeMorph.xcdatamodel */,
+			);
+			currentVersion = DFE444CC1FBA599500E77CA1 /* RSAgeMorph.xcdatamodel */;
+			path = RSAgeMorph.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DFE444B91FBA599500E77CA1 /* Project object */;
+}
