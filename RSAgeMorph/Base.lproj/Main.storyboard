@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,15 +13,59 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RSAgeMorph" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9co-uD-CLZ">
+                                <rect key="frame" x="0.0" y="68" width="375" height="550"/>
+                            </imageView>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Ur-o6-hFf">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem systemItem="history" id="49a-Dp-lqa"/>
+                                    <tabBarItem tag="1" systemItem="bookmarks" id="Ved-UB-8Kn"/>
+                                </items>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="iZP-Te-d36"/>
+                                </connections>
+                            </tabBar>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0Ur-o6-hFf" firstAttribute="top" secondItem="9co-uD-CLZ" secondAttribute="bottom" id="MA4-iw-3PZ"/>
+                            <constraint firstItem="9co-uD-CLZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PNf-Vi-brz"/>
+                            <constraint firstItem="0Ur-o6-hFf" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Scm-Et-a7b"/>
+                            <constraint firstItem="0Ur-o6-hFf" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="hbK-N4-cbk"/>
+                            <constraint firstItem="9co-uD-CLZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="48" id="idb-ci-OOE"/>
+                            <constraint firstItem="9co-uD-CLZ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="pLU-GT-psN"/>
+                            <constraint firstItem="0Ur-o6-hFf" firstAttribute="top" secondItem="9co-uD-CLZ" secondAttribute="bottom" id="sTo-hR-rwo"/>
+                            <constraint firstItem="0Ur-o6-hFf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="szA-j7-zO1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="cameraTab" destination="Ved-UB-8Kn" id="krX-7c-XUO"/>
+                        <outlet property="imageView" destination="9co-uD-CLZ" id="27A-aa-YOF"/>
+                        <outlet property="photoTab" destination="49a-Dp-lqa" id="MJM-nd-lus"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5V7-4G-Y0m">
+            <objects>
+                <navigationController id="XYI-eA-bzP" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iA7-lY-7Jg">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N6e-69-WGI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
